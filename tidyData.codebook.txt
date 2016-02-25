@@ -1,0 +1,84 @@
+Name of file : tidyData
+
+Description : tidy data set with the average of each variable for each activity and each subject.
+
+tidyData is a data frame with 180 observations on the following 68 variables.
+
+	Subject :
+ 	- a numeric vector
+	- the experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+
+	ActivityLabel :
+	- a character vector
+	- each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist
+
+	The 66 following columns are the average of each variable for each activity (ActivityLabel) and each volunteer (Subject)
+	- TimeBodyAccelerometer-mean()-X : a numeric vector
+	- TimeBodyAccelerometer-mean()-Y : a numeric vector
+	- TimeBodyAccelerometer-mean()-Z : a numeric vector
+	- TimeGravityAccelerometer-mean()-X : a numeric vector
+	- TimeGravityAccelerometer-mean()-Y : a numeric vector
+	- TimeGravityAccelerometer-mean()-Z : a numeric vector
+	- TimeBodyAccelerometerJerk-mean()-X : a numeric vector
+	- TimeBodyAccelerometerJerk-mean()-Y : a numeric vector
+	- TimeBodyAccelerometerJerk-mean()-Z : a numeric vector
+	- TimeBodyGyroscope-mean()-X : a numeric vector
+	- TimeBodyGyroscope-mean()-Y : a numeric vector
+	- TimeBodyGyroscope-mean()-Z : a numeric vector
+	- TimeBodyGyroscopeJerk-mean()-X : a numeric vector
+	- TimeBodyGyroscopeJerk-mean()-Y : a numeric vector
+	- TimeBodyGyroscopeJerk-mean()-Z : a numeric vector
+	- TimeBodyAccelerometerMagnitude-mean() : a numeric vector
+	- TimeGravityAccelerometerMagnitude-mean() : a numeric vector
+	- TimeBodyAccelerometerJerkMagnitude-mean() : a numeric vector
+	- TimeBodyGyroscopeMagnitude-mean() : a numeric vector
+	- TimeBodyGyroscopeJerkMagnitude-mean() : a numeric vector
+	- FrequencyBodyAccelerometer-mean()-X : a numeric vector				- FrequencyBodyAccelerometer-mean()-Y : a numeric vector
+	- FrequencyBodyAccelerometer-mean()-Z : a numeric vector
+	- FrequencyBodyAccelerometerJerk-mean()-X : a numeric vector
+	- FrequencyBodyAccelerometerJerk-mean()-Y : a numeric vector
+	- FrequencyBodyAccelerometerJerk-mean()-Z : a numeric vector
+	- FrequencyBodyGyroscope-mean()-X : a numeric vector
+	- FrequencyBodyGyroscope-mean()-Y : a numeric vector
+	- FrequencyBodyGyroscope-mean()-Z : a numeric vector
+	- FrequencyBodyAccelerometerMagnitude-mean() : a numeric vector
+	- FrequencyBodyAccelerometerJerkMagnitude-mean() : a numeric vector
+	- FrequencyBodyGyroscopeMagnitude-mean() : a numeric vector
+	- FrequencyBodyGyroscopeJerkMagnitude-mean() : a numeric vector
+	- TimeBodyAccelerometer-std()-X : a numeric vector
+	- TimeBodyAccelerometer-std()-Y : a numeric vector
+	- TimeBodyAccelerometer-std()-Z : a numeric vector
+	- TimeGravityAccelerometer-std()-X : a numeric vector
+	- TimeGravityAccelerometer-std()-Y : a numeric vector
+	- TimeGravityAccelerometer-std()-Z : a numeric vector
+	- TimeBodyAccelerometerJerk-std()-X : a numeric vector
+	- TimeBodyAccelerometerJerk-std()-Y : a numeric vector
+	- TimeBodyAccelerometerJerk-std()-Z : a numeric vector
+	- TimeBodyGyroscope-std()-X : a numeric vector
+	- TimeBodyGyroscope-std()-Y : a numeric vector
+	- TimeBodyGyroscope-std()-Z : a numeric vector
+	- TimeBodyGyroscopeJerk-std()-X : a numeric vector
+	- TimeBodyGyroscopeJerk-std()-Y : a numeric vector
+	- TimeBodyGyroscopeJerk-std()-Z : a numeric vector
+	- TimeBodyAccelerometerMagnitude-std() : a numeric vector
+	- TimeGravityAccelerometerMagnitude-std() : a numeric vector
+	- TimeBodyAccelerometerJerkMagnitude-std() : a numeric vector
+	- TimeBodyGyroscopeMagnitude-std() : a numeric vector
+	- TimeBodyGyroscopeJerkMagnitude-std() : a numeric vector
+	- FrequencyBodyAccelerometer-std()-X : a numeric vector
+	- FrequencyBodyAccelerometer-std()-Y : a numeric vector
+	- FrequencyBodyAccelerometer-std()-Z : a numeric vector
+	- FrequencyBodyAccelerometerJerk-std()-X : a numeric vector
+	- FrequencyBodyAccelerometerJerk-std()-Y : a numeric vector
+	- FrequencyBodyAccelerometerJerk-std()-Z : a numeric vector
+	- FrequencyBodyGyroscope-std()-X : a numeric vector
+	- FrequencyBodyGyroscope-std()-Y : a numeric vector
+	- FrequencyBodyGyroscope-std()-Z : a numeric vector
+	- FrequencyBodyAccelerometerMagnitude-std() : a numeric vector
+	- FrequencyBodyAccelerometerJerkMagnitude-std() : a numeric vector
+	- FrequencyBodyGyroscopeMagnitude-std() : a numeric vector
+	- FrequencyBodyGyroscopeJerkMagnitude-std() : a numeric vector
+
+In order to have a better view of the tidyData file, you can use the following commands :
+summary(tidyData)
+str(tidyData)
