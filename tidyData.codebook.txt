@@ -33,7 +33,8 @@ tidyData is a data frame with 180 observations on the following 68 variables.
 	- TimeBodyAccelerometerJerkMagnitude-mean() : a numeric vector
 	- TimeBodyGyroscopeMagnitude-mean() : a numeric vector
 	- TimeBodyGyroscopeJerkMagnitude-mean() : a numeric vector
-	- FrequencyBodyAccelerometer-mean()-X : a numeric vector				- FrequencyBodyAccelerometer-mean()-Y : a numeric vector
+	- FrequencyBodyAccelerometer-mean()-X : a numeric vector
+	- FrequencyBodyAccelerometer-mean()-Y : a numeric vector
 	- FrequencyBodyAccelerometer-mean()-Z : a numeric vector
 	- FrequencyBodyAccelerometerJerk-mean()-X : a numeric vector
 	- FrequencyBodyAccelerometerJerk-mean()-Y : a numeric vector
