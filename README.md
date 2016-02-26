@@ -64,8 +64,8 @@ In case names follow some schema, describe how entries were constructed (for exa
 - values :  "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
 - each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist
 
-#### Variable 3 to Variable 68 : 
-- The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals TimeAccelerometer-XYZ and TimeGyroscope-XYZ.
+#### Variable 3 to Variable 68 : mean and standard deviation (std)
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals TimeAccelerometer-XYZ and TimeGyroscope-XYZ.
 
 These time domain signals (prefix 'Time' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
 
@@ -77,7 +77,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern:  '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-- The 66 following columns are the average (mean) of each variable for each activity (ActivityLabel) and each volunteer (Subject)
+The 66 following columns are the average (mean) of each variable for each activity (ActivityLabel) and each volunteer (Subject) :
+
 - TimeBodyAccelerometer-mean()-X : a numeric vector / no unit
 - TimeBodyAccelerometer-mean()-Y : a numeric vector / no unit
 - TimeBodyAccelerometer-mean()-Z : a numeric vector / no unit
