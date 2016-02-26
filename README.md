@@ -35,6 +35,8 @@ The data describe a human activity recognition using smartphones : The experimen
 
 ###  STEP 5 : Creates a dataset with the average of each variable for each activity and each subject. 
 
+The code description can be found here: Getting-Cleaning-Data/Code description
+
 ## Code description
 ```
 library(data.table)
