@@ -35,9 +35,15 @@ The data describe a human activity recognition using smartphones : The experimen
 
 ##### STEP 4  : Appropriately labels the data set with descriptive variable names
 
-#####  STEP 5 : Creates a dataset with the average of each variable for each activity and each subject. 
+##### STEP 5 : Creates a dataset with the average of each variable for each activity and each subject. 
 
-#####Code Description
-The code description can be found in : 
-[Getting-Cleaning-Data/Code description.md]
+##### Code Description
+The code description can be found in this repository : Code Description.md
+
+## Description of the variables in the tidy.txt file
+General description of the file including:
+
+Dimensions of the dataset
+Summary of the data
+Variables present in the dataset
 
