@@ -145,10 +145,9 @@ These signals were used to estimate variables of the feature vector for each pat
 - FrequencyBodyGyroscopeMagnitude-std() : a numeric vector / no unit
 - FrequencyBodyGyroscopeJerkMagnitude-std() : a numeric vector / no unit
 
-In order to have a better view of the tidyData file, you can use the following commands :
-summary(tidyData)
-str(tidyData)
+In order to have a better view of the tidyData file, you can use the following commands : summary(tidyData) and str(tidyData).
 
+```
 str(tidyData)
 'data.frame':	180 obs. of  68 variables:
  $ Subject                                       : int  1 1 1 1 1 1 2 2 2 2 ...
@@ -219,3 +218,4 @@ str(tidyData)
  $ FrequencyBodyAccelerometerJerkMagnitude-std() : num  -0.922 -0.982 -0.993 -0.103 -0.104 ...
  $ FrequencyBodyGyroscopeMagnitude-std()         : num  -0.824 -0.932 -0.978 -0.321 -0.398 ...
  $ FrequencyBodyGyroscopeJerkMagnitude-std()     : num  -0.933 -0.987 -0.995 -0.382 -0.392 ...
+```
