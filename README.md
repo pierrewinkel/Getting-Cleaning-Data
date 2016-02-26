@@ -37,8 +37,10 @@ The data describe a human activity recognition using smartphones : The experimen
 
 ##### STEP 5 : Creates a dataset with the average of each variable for each activity and each subject. 
 
+
 ##### Code Description
-The code description can be found in this repository : Code Description.md
+**The code description can be found in this repository : Code Description.md**
+
 
 ## Description of the variables in the tidy.txt file
 General description of the file including:
