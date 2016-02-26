@@ -39,7 +39,7 @@ The data describe a human activity recognition using smartphones : The experimen
 
 
 ##### Code Description
-**The code description can be found in this repository : Code Description.md**
+The code description can be found in this repository : **Code Description.md**
 
 
 ## Description of the variables in the tidy.txt file
