@@ -14,7 +14,7 @@ The data describe a human activity recognition using smartphones : The experimen
 
 ## Creating the tidy dataset
 
-### STEP 0 : Download data and prepare raw data tables
+#### STEP 0 : Download data and prepare raw data tables
 **1. Downloads the zip file**
 **2. Unzips the file**
 **3. Creates subject tables : test and training**
