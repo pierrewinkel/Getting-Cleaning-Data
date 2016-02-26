@@ -60,83 +60,90 @@ In case names follow some schema, describe how entries were constructed (for exa
 - the experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each of them is identified by a number from 1 to 30.
 
 #### Variable 2 : ActivityLabel
-	- a character vector
-	- values :  "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
-	- each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist
+- a character vector
+- values :  "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
+- each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist
 
 #### Variable 3 to Variable 68 : 
 - The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals TimeAccelerometer-XYZ and TimeGyroscope-XYZ.
-These time domain signals (prefix 'Time' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (TimeAccelerometer-XYZ and TimeGravityAccelerometer-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+These time domain signals (prefix 'Time' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals (TimeAccelerometer-XYZ and TimeGravityAccelerometer-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (TimeBodyAccelerometerJerk-XYZ and TimeBodyGyroscopeJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (TimeBodyAccelerometerMagnitude, TimeGravityAccelerometerMagnitude, TimeBodyAccelerometerJerkMagnitude, TimeBodyGyroscopeMagnitude and TimeBodyGyroscopeJerkMagnitude). 
+
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAccelerometer-XYZ, FrequencyBodyAccelerometerJerk-XYZ, FrequencyBodyGyroscope-XYZ, FrequencyBodyAccelerometerJerkMagnitude, FrequencyBodyGyroscopeMagnitude, FrequencyBodyGyroscopeJerkMagnitude. (Note the 'Frequency" to indicate frequency domain signals). 
+
 These signals were used to estimate variables of the feature vector for each pattern:  '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 - The 66 following columns are the average (mean) of each variable for each activity (ActivityLabel) and each volunteer (Subject)
 - TimeBodyAccelerometer-mean()-X : a numeric vector / no unit
 - TimeBodyAccelerometer-mean()-Y : a numeric vector / no unit
 - TimeBodyAccelerometer-mean()-Z : a numeric vector / no unit
-- - TimeGravityAccelerometer-mean()-X : a numeric vector / no unit
-	- TimeGravityAccelerometer-mean()-Y : a numeric vector / no unit
-	- TimeGravityAccelerometer-mean()-Z : a numeric vector / no unit
-	- TimeBodyAccelerometerJerk-mean()-X : a numeric vector / no unit
-	- TimeBodyAccelerometerJerk-mean()-Y : a numeric vector / no unit
-	- TimeBodyAccelerometerJerk-mean()-Z : a numeric vector / no unit
-	- TimeBodyGyroscope-mean()-X : a numeric vector / no unit
-	- TimeBodyGyroscope-mean()-Y : a numeric vector / no unit
-	- TimeBodyGyroscope-mean()-Z : a numeric vector / no unit
-	- TimeBodyGyroscopeJerk-mean()-X : a numeric vector / no unit
-	- TimeBodyGyroscopeJerk-mean()-Y : a numeric vector / no unit
-	- TimeBodyGyroscopeJerk-mean()-Z : a numeric vector / no unit
-	- TimeBodyAccelerometerMagnitude-mean() : a numeric vector / no unit
-	- TimeGravityAccelerometerMagnitude-mean() : a numeric vector / no unit
-	- TimeBodyAccelerometerJerkMagnitude-mean() : a numeric vector / no unit
-	- TimeBodyGyroscopeMagnitude-mean() : a numeric vector / no unit
-	- TimeBodyGyroscopeJerkMagnitude-mean() : a numeric vector / no unit
-	- FrequencyBodyAccelerometer-mean()-X : a numeric vector / no unit
-	- FrequencyBodyAccelerometer-mean()-Y : a numeric vector / no unit
-	- FrequencyBodyAccelerometer-mean()-Z : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerk-mean()-X : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerk-mean()-Y : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerk-mean()-Z : a numeric vector / no unit
-	- FrequencyBodyGyroscope-mean()-X : a numeric vector / no unit
-	- FrequencyBodyGyroscope-mean()-Y : a numeric vector / no unit
-	- FrequencyBodyGyroscope-mean()-Z : a numeric vector / no unit
-	- FrequencyBodyAccelerometerMagnitude-mean() : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerkMagnitude-mean() : a numeric vector / no unit
-	- FrequencyBodyGyroscopeMagnitude-mean() : a numeric vector / no unit
-	- FrequencyBodyGyroscopeJerkMagnitude-mean() : a numeric vector / no unit
-	- TimeBodyAccelerometer-std()-X : a numeric vector / no unit
-	- TimeBodyAccelerometer-std()-Y : a numeric vector / no unit
-	- TimeBodyAccelerometer-std()-Z : a numeric vector / no unit
-	- TimeGravityAccelerometer-std()-X : a numeric vector / no unit
-	- TimeGravityAccelerometer-std()-Y : a numeric vector / no unit
-	- TimeGravityAccelerometer-std()-Z : a numeric vector / no unit
-	- TimeBodyAccelerometerJerk-std()-X : a numeric vector / no unit
-	- TimeBodyAccelerometerJerk-std()-Y : a numeric vector / no unit
-	- TimeBodyAccelerometerJerk-std()-Z : a numeric vector / no unit
-	- TimeBodyGyroscope-std()-X : a numeric vector / no unit
-	- TimeBodyGyroscope-std()-Y : a numeric vector / no unit
-	- TimeBodyGyroscope-std()-Z : a numeric vector / no unit
-	- TimeBodyGyroscopeJerk-std()-X : a numeric vector / no unit
-	- TimeBodyGyroscopeJerk-std()-Y : a numeric vector / no unit
-	- TimeBodyGyroscopeJerk-std()-Z : a numeric vector / no unit
-	- TimeBodyAccelerometerMagnitude-std() : a numeric vector / no unit
-	- TimeGravityAccelerometerMagnitude-std() : a numeric vector / no unit
-	- TimeBodyAccelerometerJerkMagnitude-std() : a numeric vector / no unit
-	- TimeBodyGyroscopeMagnitude-std() : a numeric vector / no unit
-	- TimeBodyGyroscopeJerkMagnitude-std() : a numeric vector / no unit
-	- FrequencyBodyAccelerometer-std()-X : a numeric vector / no unit
-	- FrequencyBodyAccelerometer-std()-Y : a numeric vector / no unit
-	- FrequencyBodyAccelerometer-std()-Z : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerk-std()-X : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerk-std()-Y : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerk-std()-Z : a numeric vector / no unit
-	- FrequencyBodyGyroscope-std()-X : a numeric vector / no unit
-	- FrequencyBodyGyroscope-std()-Y : a numeric vector / no unit
-	- FrequencyBodyGyroscope-std()-Z : a numeric vector / no unit
-	- FrequencyBodyAccelerometerMagnitude-std() : a numeric vector / no unit
-	- FrequencyBodyAccelerometerJerkMagnitude-std() : a numeric vector / no unit
-	- FrequencyBodyGyroscopeMagnitude-std() : a numeric vector / no unit
-	- FrequencyBodyGyroscopeJerkMagnitude-std() : a numeric vector / no unit
+- TimeGravityAccelerometer-mean()-X : a numeric vector / no unit
+- TimeGravityAccelerometer-mean()-Y : a numeric vector / no unit
+- TimeGravityAccelerometer-mean()-Z : a numeric vector / no unit
+- TimeBodyAccelerometerJerk-mean()-X : a numeric vector / no unit
+- TimeBodyAccelerometerJerk-mean()-Y : a numeric vector / no unit
+- TimeBodyAccelerometerJerk-mean()-Z : a numeric vector / no unit
+- TimeBodyGyroscope-mean()-X : a numeric vector / no unit
+- TimeBodyGyroscope-mean()-Y : a numeric vector / no unit
+- TimeBodyGyroscope-mean()-Z : a numeric vector / no unit
+- TimeBodyGyroscopeJerk-mean()-X : a numeric vector / no unit
+- TimeBodyGyroscopeJerk-mean()-Y : a numeric vector / no unit
+- TimeBodyGyroscopeJerk-mean()-Z : a numeric vector / no unit
+- TimeBodyAccelerometerMagnitude-mean() : a numeric vector / no unit
+- TimeGravityAccelerometerMagnitude-mean() : a numeric vector / no unit
+- TimeBodyAccelerometerJerkMagnitude-mean() : a numeric vector / no unit
+- TimeBodyGyroscopeMagnitude-mean() : a numeric vector / no unit
+- TimeBodyGyroscopeJerkMagnitude-mean() : a numeric vector / no unit
+- FrequencyBodyAccelerometer-mean()-X : a numeric vector / no unit
+- FrequencyBodyAccelerometer-mean()-Y : a numeric vector / no unit
+- FrequencyBodyAccelerometer-mean()-Z : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerk-mean()-X : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerk-mean()-Y : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerk-mean()-Z : a numeric vector / no unit
+- FrequencyBodyGyroscope-mean()-X : a numeric vector / no unit
+- FrequencyBodyGyroscope-mean()-Y : a numeric vector / no unit
+- FrequencyBodyGyroscope-mean()-Z : a numeric vector / no unit
+- FrequencyBodyAccelerometerMagnitude-mean() : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerkMagnitude-mean() : a numeric vector / no unit
+- FrequencyBodyGyroscopeMagnitude-mean() : a numeric vector / no unit
+- FrequencyBodyGyroscopeJerkMagnitude-mean() : a numeric vector / no unit
+- TimeBodyAccelerometer-std()-X : a numeric vector / no unit
+- TimeBodyAccelerometer-std()-Y : a numeric vector / no unit
+- TimeBodyAccelerometer-std()-Z : a numeric vector / no unit
+- TimeGravityAccelerometer-std()-X : a numeric vector / no unit
+- TimeGravityAccelerometer-std()-Y : a numeric vector / no unit
+- TimeGravityAccelerometer-std()-Z : a numeric vector / no unit
+- TimeBodyAccelerometerJerk-std()-X : a numeric vector / no unit
+- TimeBodyAccelerometerJerk-std()-Y : a numeric vector / no unit
+- TimeBodyAccelerometerJerk-std()-Z : a numeric vector / no unit
+- TimeBodyGyroscope-std()-X : a numeric vector / no unit
+- TimeBodyGyroscope-std()-Y : a numeric vector / no unit
+- TimeBodyGyroscope-std()-Z : a numeric vector / no unit
+- TimeBodyGyroscopeJerk-std()-X : a numeric vector / no unit
+- TimeBodyGyroscopeJerk-std()-Y : a numeric vector / no unit
+- TimeBodyGyroscopeJerk-std()-Z : a numeric vector / no unit
+- TimeBodyAccelerometerMagnitude-std() : a numeric vector / no unit
+- TimeGravityAccelerometerMagnitude-std() : a numeric vector / no unit
+- TimeBodyAccelerometerJerkMagnitude-std() : a numeric vector / no unit
+- TimeBodyGyroscopeMagnitude-std() : a numeric vector / no unit
+- TimeBodyGyroscopeJerkMagnitude-std() : a numeric vector / no unit
+- FrequencyBodyAccelerometer-std()-X : a numeric vector / no unit
+- FrequencyBodyAccelerometer-std()-Y : a numeric vector / no unit
+- FrequencyBodyAccelerometer-std()-Z : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerk-std()-X : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerk-std()-Y : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerk-std()-Z : a numeric vector / no unit
+- FrequencyBodyGyroscope-std()-X : a numeric vector / no unit
+- FrequencyBodyGyroscope-std()-Y : a numeric vector / no unit
+- FrequencyBodyGyroscope-std()-Z : a numeric vector / no unit
+- FrequencyBodyAccelerometerMagnitude-std() : a numeric vector / no unit
+- FrequencyBodyAccelerometerJerkMagnitude-std() : a numeric vector / no unit
+- FrequencyBodyGyroscopeMagnitude-std() : a numeric vector / no unit
+- FrequencyBodyGyroscopeJerkMagnitude-std() : a numeric vector / no unit
 
 In order to have a better view of the tidyData file, you can use the following commands :
 summary(tidyData)
