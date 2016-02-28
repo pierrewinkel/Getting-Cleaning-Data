@@ -216,4 +216,4 @@ str(tidyData)
  $ FrequencyBodyGyroscopeJerkMagnitude-std()     : num  -0.933 -0.987 -0.995 -0.382 -0.392 ...
 ```
 ### Codebook
-The codebook can be found in this repository : **tidyData.Codebook.txt**
+The codebook can be found in this repository : **CODEBOOK.md**
