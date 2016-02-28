@@ -44,11 +44,6 @@ The code description can be found in this repository : **Code Description.md**
 
 ## Description of the variables in the tidy.txt file
 
-Class of the variable
-Unique values/levels of the variable
-Unit of measurement (if no unit of measurement list this as well)
-In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels).
-
 - Name of file : tidy.txt
 - Description : tidy data set with the average of each variable for each activity and each subject.
 - Dimension : tidy.txt is a data frame with 180 observations of the following 68 variables.
